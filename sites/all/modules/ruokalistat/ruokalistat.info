@@ -1,0 +1,14 @@
+name = ruokalistat
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_erityisruokavalio
+features[field_instance][] = node-ruokalaji-body
+features[field_instance][] = node-ruokalaji-field_erityisruokavalio
+features[node][] = ruokalaji
+features[taxonomy][] = erityisruokavaliomerkint_
