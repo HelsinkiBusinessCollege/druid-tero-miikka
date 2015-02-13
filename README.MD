@@ -1,0 +1,1 @@
+Tänään on perjantai :D
